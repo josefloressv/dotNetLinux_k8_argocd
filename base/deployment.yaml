@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: dotnetapp
-        image: 381492032511.dkr.ecr.us-east-1.amazonaws.com/dotnetapp:v2
+        image: 381492032511.dkr.ecr.us-east-1.amazonaws.com/dotnetapp:v3
         ports:
         - containerPort: 8080
         env:
